@@ -1,4 +1,4 @@
-<h1>Classroom Work</h1>
+<h1>🚀 Classroom Work</h1>
 
 <p>This repository contains my learning journey and assignments from Bridgelabz. It includes practice programs, problem-solving exercises, and project files in Java and other technologies.</p>
 <h2>📂 Repository Structure</h2>
