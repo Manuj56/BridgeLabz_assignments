@@ -1,5 +1,3 @@
-// File: Sep_20.java
-
 // ------------------- Problem 1: Employee Management System -------------------
 abstract class Employee {
     private int employeeId;
@@ -324,3 +322,4 @@ public class Sep_20 {
         System.out.println("Fare for 10 km: " + ride.calculateFare(10));
     }
 }
+
