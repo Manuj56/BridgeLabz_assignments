@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>All HTML Tasks</title>
+    </head>
+    <body>
+        <h1>HTML Practical Assignments</h1>
+
+        <h2>1. Responsive YouTube Video</h2>
+        <iframe
+            width="80%"
+            height="50%"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            title="YouTube video"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+        <hr>
+
+        <h2>2. Google Map Embed with Lazy Loading</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.717864343667!2d80.93460021451966!3d26.8489304831559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39995677e4df2cf7%3A0x8a8c3a2a88bde01!2sLucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1690000000000!5m2!1sen!2sin"
+            width="80%"
+            height="400"
+            title="Lucknow Map"
+            loading="lazy">
+        </iframe>
+        <hr>
+
+        <h2>3. Two Iframes (Introduction + Hobby)</h2>
+        <iframe src="intro.html" width="80%" height="250" title="Introduction"></iframe>
+        <br>
+        <iframe src="hobby.html" width="80%" height="250" title="Hobby"></iframe>
+        <hr>
+
+        <h2>4. Frameset Layout Example</h2>
+        <p>(This feature works only in older browsers)</p>
+        <iframe srcdoc="<h3>Home | About | Contact</h3><p>Navigation Frame</p>" width="100%" height="80"></iframe>
+        <iframe srcdoc="<h2>Welcome to My Website</h2>" width="100%" height="120"></iframe>
+        <hr>
+
+        <h2>5. UTF-8 Encoding Verification</h2>
+        <p>English: Hello Everyone!</p>
+        <p>हिंदी: नमस्ते सबको!</p>
+        <p>日本語: こんにちは みんな!</p>
+        <hr>
+
+        <h2>6. User Registration Form</h2>
+        <form>
+            Full Name: <input type="text" required><br><br>
+            Email Address: <input type="email" required><br><br>
+            Password: <input type="password" required><br><br>
+            Confirm Password: <input type="password" required><br><br>
+            <input type="submit" value="Register">
+        </form>
+        <hr>
+
+        <h2>7. Login Form</h2>
+        <form>
+            Username: <input type="text" required><br><br>
+            Password: <input type="password" required><br><br>
+            <input type="hidden" name="csrf_token" value="12345xyz">
+            <input type="submit" value="Login">
+        </form>
+        <hr>
+
+        <h2>8. Feedback Form</h2>
+        <form method="post" action="#">
+            <textarea name="feedback" rows="5" cols="40" placeholder="Enter feedback here..." required></textarea>
+            <br><br>
+            Rating:
+            <input type="radio" name="rating" value="Good">Good
+            <input type="radio" name="rating" value="Average">Average
+            <input type="radio" name="rating" value="Poor">Poor
+            <br><br>
+            <input type="submit" value="Submit Feedback">
+        </form>
+        <hr>
+
+        <h2>9. File Upload Form</h2>
+        <form>
+            <input type="file" accept=".jpg,.png" required><br><br>
+            <p>Only .jpg and .png files are allowed.</p>
+            <input type="submit" value="Upload">
+        </form>
+        <hr>
+
+        <h2>10. Contact Form</h2>
+        <form>
+            Full Name: <input type="text" placeholder="Enter your name" required><br><br>
+            Email: <input type="email" placeholder="Enter your email" required><br><br>
+            Subject: <input type="text" placeholder="Enter subject" required><br><br>
+            Message: <textarea placeholder="Write your message here" required></textarea><br><br>
+            <input type="submit" value="Send Message">
+        </form>
+        <hr>
+
+        <h2>11. Student Information Form</h2>
+        <form>
+            Name: <input type="text" required><br><br>
+            Roll Number: <input type="text" required><br><br>
+            Course:
+            <select required>
+                <option value="" disabled selected>Select Course</option>
+                <option>B.Tech</option>
+                <option>BCA</option>
+                <option>MCA</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <hr>
+
+        <h2>12. HTML Entities</h2>
+        <p>&lt; , &gt; , &amp; , &quot; , &apos; <br>&copy; , &trade; , &reg;</p>
+        <hr>
+
+        <h2>13. Multilingual Page</h2>
+        <p>English: Welcome to my page!</p>
+        <p>हिंदी: यह मेरा पेज है।</p>
+        <p>Français: Bienvenue sur ma page!</p>
+        <hr>
+
+        <h2>14. Embed External Website</h2>
+        <iframe src="https://www.wikipedia.org" width="80%" height="400"></iframe>
+        <p>Some websites may not allow embedding for security reasons.</p>
+        <hr>
+
+        <h2>15. Payment Form</h2>
+        <form>
+            Cardholder Name: <input type="text" required><br><br>
+            Card Number: <input type="number" required><br><br>
+            Expiry Date: <input type="month" required><br><br>
+            CVV: <input type="password" required><br><br>
+            <input type="submit" value="Pay Now">
+        </form>
+        <hr>
+
+        <h2>16. URI Encoding</h2>
+        <p>Unencoded URL: https://example.com/search?query=HTML &amp; CSS</p>
+        <p>Encoded URL: <a href="https://example.com/search?query=HTML%20%26%20CSS" target="_blank">https://example.com/search?query=HTML%20%26%20CSS</a></p>
+        <hr>
+
+        <h2>17. Form with Iframe</h2>
+        <form target="result_frame" action="result.html">
+            Enter Text: <input type="text" required>
+            <input type="submit" value="Submit">
+        </form>
+        <iframe name="result_frame" width="80%" height="100"></iframe>
+        <hr>
+
+        <h2>18. Quotations Example</h2>
+        <blockquote>“Success is not final, failure is not fatal: it is the courage to continue that counts.”</blockquote>
+        <p>As the saying goes, <q>Practice makes perfect &amp; effort always pays off.</q></p>
+        <hr>
+
+        <h2>19. Form Security Attributes</h2>
+        <form autocomplete="off">
+            Username: <input type="text" required><br><br>
+            Password: <input type="password" required><br><br>
+            <input type="submit" value="Login Securely">
+        </form>
+        <p>Turning off autocomplete prevents browsers from storing credentials, improving security.</p>
+        <hr>
+
+        <h2>20. Complete Head Elements Explanation</h2>
+        <p>All essential head elements are demonstrated here for understanding their purpose.</p>
+    </body>
+</html>
